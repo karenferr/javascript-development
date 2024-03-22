@@ -19,7 +19,8 @@ function clipboard(){
   var copiarTexto = document.getElementById("entrada"); 
   // seleciona o texto do elemento 
   copiarTexto.select(); 
-  copiarTexto.setSelectionRange(0,99999); // texto ser todo selecionado em diversos dispositivos
+  // texto ser todo selecionado em diversos dispositivos
+  copiarTexto.setSelectionRange(0,99999); 
   // copia o texto selecionado
   navigator.clipboard.writeText(copiarTexto.value);
 }
