@@ -10,6 +10,7 @@ var ano = "13/03/2024";
 var minhaIdade = 44;
 var nome = "Karen";
 var sobrenome = "Ferreira";
+var nomeCompleto = nome + " " + sobrenome;
 var frase = "It's time";
 
 console.log(typeof nome);
@@ -25,8 +26,8 @@ var anoAtual = "2024";
 var mesAniversario = 7;
 var cidade = "Santa Inês";
 var estado = "BA";
-var frase = "Aprendendo JS";
-let infoPessoal = "Nasci em "+ cidade + ", "+estado; 
+var frase2 = "Aprendendo JS";
+let infoPessoal = "Nasci em "+ cidade + ", "+ estado; 
 
 console.log(infoPessoal);
 console.log(typeof mesAniversario);
@@ -43,10 +44,10 @@ var numeroString = "13/03/2024";
 var anoAtual = "2024";
 var linguagem = "JS";
 var diaDaSemana = "quarta";
-let frase = "Estou aprendendo "+linguagem+" no(a) "+diaDaSemana;
+let frase3 = "Estou aprendendo "+linguagem+" no(a) "+diaDaSemana;
 var curso = "learning JS";
 
-console.log(frase);
+console.log(frase3);
 console.log(typeof anoAtual);
 
 

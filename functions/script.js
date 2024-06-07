@@ -1,10 +1,10 @@
 // Crie uma função para verificar se um valor é Truthy
 function valorTruthy(valor) {
   if (valor){
-    return "é Truthy."
+    return "Truthy"
   }
   else {
-    return "é Falsy.";
+    return "Falsy";
   }
 }
 // Crie uma função matemática que retorne o perímetro de um quadrado
@@ -19,16 +19,16 @@ function nomeCompleto(nome, sobrenome) {
 console.log(nomeCompleto("Karen", "Ferreira"));
 
 // Crie uma função que verifica se um número é par
-function numeroPar(valor) {
-  var ehPar = valor % 2 == 0;
-  if (ehPar) {
-    return "É par.";
+function numero(valor) {
+  var numeroPar = valor % 2 == 0;
+  if (numeroPar) {
+    return "Par";
   } else {
-    return "Não é par.";
+    return "Ímpar";
   }
 }
-console.log(numeroPar(4));
-console.log(numeroPar(5));
+console.log(numero(4));
+console.log(numero(5));
 
 // Crie uma função que retorne o tipo de dado do argumento passado nela (typeof)
 function tipoDado(valor) {
@@ -38,7 +38,7 @@ console.log(tipoDado(5));
 // addEventListener é uma função nativa do JS o primeiro parâmetro é o evento que ocorre e o segundo o Callback utilize essa função para mostrar no console o seu nome completo quando o evento 'scroll' ocorrer.
 addEventListener("scroll", function () {
   console.log("Karen");
-}); // criar ouvinte de evento - qnd rolar pagina - execute a funcao - imprimir karen no console
+}); // adicionar ouvinte de evento - qnd rolar pagina - execute a funcao - imprimir karen no console
 
 // Corrija o erro abaixo
 var totalPaises = 193;
